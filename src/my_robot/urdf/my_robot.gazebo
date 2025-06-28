@@ -16,13 +16,13 @@
       <rightJoint>right_wheel_joint</rightJoint>
 
       <!-- Robot Dimensions -->
-      <wheelSeparation>0.4</wheelSeparation>
+      <wheelSeparation>0.44</wheelSeparation>
       <wheelDiameter>0.2</wheelDiameter>
 
       <!-- Dynamics -->
       <torque>7.0</torque>
-      <wheelAcceleration>5.0</wheelAcceleration>
       <wheelTorque>7.0</wheelTorque>
+      <wheelAcceleration>5.0</wheelAcceleration>
 
       <!-- Topics -->
       <commandTopic>cmd_vel</commandTopic>
