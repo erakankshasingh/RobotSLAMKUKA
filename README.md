@@ -81,7 +81,6 @@ roslaunch my_robot world.launch
 ```bash
 roslaunch ball_chaser ball_chaser.launch
 ```
-```markdown
 ## What This Project Demonstrates
 - This project highlights my hands-on work in:
 - Robotics software development with ROS packages and Catkin
@@ -103,3 +102,4 @@ RobotSLAMKUKA/
 ```
 ## Notes
 - This repository is intended as a practical robotics portfolio project and reflects hands-on development in ROS, Gazebo, and C++-based robot behavior implementation.
+```markdown
