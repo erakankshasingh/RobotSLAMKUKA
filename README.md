@@ -71,35 +71,27 @@ source devel/setup.bash
 
 ## Run
 
-- Example launch flow:
-
-- Start the robot simulation
+### Start the robot simulation
 
 ```bash
 roslaunch my_robot world.launch
 ```
-
-- Start the ball chaser behavior
+### Start the ball chaser behavior
 
 ```bash
 roslaunch ball_chaser ball_chaser.launch
 ```
-
+```markdown
 ## What This Project Demonstrates
 - This project highlights my hands-on work in:
-
 - Robotics software development with ROS packages and Catkin
-
 - C++ implementation of ROS nodes and services, and topic-based control
-
 - Integrating perception input with robot control
-
 - Simulation-based testing and validation
-
 - Structuring based testing and validation using Gazebo and RViz
 
 ## Repository Structure
-
+```text
 RobotSLAMKUKA/
 ├── src/
 │   ├── ball_chaser/
@@ -108,6 +100,6 @@ RobotSLAMKUKA/
 │   ├── first_package/
 │   └── CMakeLists.txt
 └── devel/
-
+```
 ## Notes
 - This repository is intended as a practical robotics portfolio project and reflects hands-on development in ROS, Gazebo, and C++-based robot behavior implementation.
